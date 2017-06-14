@@ -1,0 +1,69 @@
+body{
+  font: 20px Montserrat, sans-serif;
+  background-color: #e9e9e9 !important;
+}
+input#msg{
+  border-radius: 8px;
+}
+.row>h1{
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 10px;
+  color: #fff;
+}
+.row{
+  margin-bottom: 2px;
+}
+#conver{
+  height: 400px;
+  width: 100%;
+  background: #fcfcfc;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+#back{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  left: 4%;
+}
+h1{
+  text-align: center;
+  margin: 0px;
+  background-color: #521CA6;
+  padding: 0px;
+}
+#send{
+  border-radius: 7px;
+  margin-left: 1px;
+}
+form#login{
+  max-width: 420px;
+  display: block;
+  margin: auto;
+}
+b>span{
+  color: red;
+  margin-left: 2.5px;
+}
+label>b{
+  margin-left: 12px;
+}
+form#login>.form-group>input{
+  border-radius: 8px;
+}
+button#chat_now{
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+nav.navbar-default{
+  background-color: #521CA6;
+}
+nav.navbar{
+  border-radius: 10px;
+  min-height: 75px;
+  margin-bottom: 20px;
+}
