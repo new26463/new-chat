@@ -21,7 +21,7 @@ html(lang='en')
         p(style="max-width:230px;display: block;margin: auto;margin-bottom:18px;")
           b 
             span กรุณากรอกข้อมูลก่อนเริ่มสนทนาค่ะ
-        form#login(action="/chatRoom.jade")
+        form#login(action="/chat")
           .form-group
             label
               b Username
@@ -43,7 +43,6 @@ html(lang='en')
                 span *
             input#user_qus.form-control(type='text', placeholder='Enter your question' required)
           button#chat_now.btn.btn-primary(type='submit') Chat Now
-      
-    
+  
         
     script(src='javascripts/bootstrap.min.js')

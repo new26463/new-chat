@@ -20,6 +20,6 @@ app.get('/chat', (req, res)=>{
 })
 
 app.get('/admin', (req, res)=>{
-  consloe.log('admin eiei')
-  res.render('chatroom',{})
+  console.log('admin eiei')
+  res.render('listRoom')
 })

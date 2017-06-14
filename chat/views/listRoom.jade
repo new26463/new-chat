@@ -10,21 +10,21 @@ html(lang='en')
     link(href='css/bootstrap.min.css', rel='stylesheet')
     script(src='javascripts/main.js')
   body
-    .container
+    .container-fluid
       .row
-        span#back.glyphicon.glyphicon-chevron-left
-        h1#name_user Name
-      .row
-        .col-md-12
-          .row
-            #conver.col-md-12
-          .row
-            .col-lg-12
-            form#chat-form(action="/admin")
-              .input-group
-                input#msg.form-control(type='text', placeholder='Type here ...' required)
-                span.input-group-btn
-                  button#send.btn.btn-primary(type='submit') send
+        table.table.table-hover
+          tr
+            th id room
+            th name user
+            th telephone
+            th question
+            th name admin
+          tr 
+            td 15624
+            td a 
+            td 0297978465
+            td xxxxxxxxxxxxxxxxxx
+            td ABC
 
     
     script(src='javascripts/bootstrap.min.js')
